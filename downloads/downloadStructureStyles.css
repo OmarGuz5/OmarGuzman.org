@@ -1,0 +1,296 @@
+/*StructureStyles.css 1.00 Jan 2017 by Omar Guzman*/
+/*Structure Modifications*/
+html{
+	-ms-text-size-adjust:100%!important;
+	-webkit-text-size-adjust:100%!important;
+	box-sizing:border-box!important;
+	margin:0px auto!important;
+	padding:0px auto!important;
+}
+
+body {
+	margin:0px auto!important;
+	padding:0px auto!important;
+	width:100%!important;
+}
+
+div.gridContainer {
+	width:100%!important;
+	margin:0px auto!important;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	
+}
+
+nav {
+	z-index:1;
+	position:fixed!important;
+	float:center!important;
+	width:100%!important;
+	right:0px;
+	top:0px;
+	margin:0px auto!important;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	border:2px solid black;
+	text-align:center;
+}
+nav a{
+	margin-top:20px auto!important;
+	margin-left:auto!important;
+	margin-right:auto!important;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color:#0fa4a6!important;
+}
+
+nav a{
+	padding-left:auto!important;
+	padding-right:auto!important;
+}
+
+div.left {
+	float:left;
+}
+
+div.right {
+	float:right;
+}
+
+div.center {
+	float:center;
+	text-align:center;
+}
+
+h3.center {
+	text-align: center;
+	float:center;
+}
+h4.center {
+		text-align: center;
+	float:center;
+}
+
+
+
+article {
+	
+}
+
+header {
+}
+h1 {
+	text-align:left!important;
+	line-height:.01;
+}
+
+h3 {
+	text-align:center!important;
+}
+h5 {
+	text-align:center!important;
+}
+
+h5 {
+	text-align:left!important;
+}
+
+table {
+}
+
+div.space {
+	height:150px!important;
+	margin:0px auto!important;
+	padding:0px!important;
+	width:100%!important;
+}
+div.smallSpace {
+	height:50px!important;
+	width:100%!important;
+	margin:0px auto!important;
+}
+
+div.navSpace {
+	margin:0px auto!important;
+	height:150px!important;
+	width:100%!important;
+}
+
+aside {
+}
+
+article{
+	width:100%!important;
+	float:center;
+	margin:0px auto!important;
+	padding:10px;
+}
+
+div.grid {
+	float:center!important;
+	max-width:800px!important;
+	width:87%;
+	padding:10px auto!important;
+	margin:0px auto!important;
+	border-radius:2px;
+	opacity:1;
+}
+
+section {
+	margin:0px auto!important;
+	width:100%!important;
+	float:center!important;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+	border: 5px solid black;
+	background-color:white;
+}
+
+section.Post {
+	margin:0px auto!important;
+	width:100%!important;
+	padding:0px auto!important;
+	margin-left:5px!important;
+	margin-right:5px!important;
+	
+}
+article p {
+	padding-right:20px!important;
+}
+
+
+div.fb {
+	background-image: url("social-1_logo-facebook.svg");
+}
+
+div.instagram {
+	background-image: url("social-1_logo-instagram.svg");
+}
+
+div.linkedin {
+	background-image: url("social-1_logo-linkedin.svg");
+}
+
+div.twitter {
+	background-image: url("social-1_logo-twitter.svg");
+}
+
+div.sm {
+	float:left;
+	display:block;
+	padding:0px;
+	margin:0px auto!important;
+	margin-right:18px!important;
+	background-position:cover;
+	height:32px;
+	width:32px;
+	padding:0px auto!important;
+}
+
+div.smList {
+	display:block;
+	width:200px;
+	margin:0px auto!important;
+	height:100px;
+	padding:0px auto!important;
+	float:center;
+	padding:0px auto!important;
+}
+
+img.gemEx{
+	float:center;
+	width:90%;
+	height:90%;
+	border:1px solid black;
+	background-color:white;
+	text-align:center;
+}
+article img {
+	display:block;
+	margin: auto!important;
+}
+
+a.download {
+	display:block;
+	text-align: center;
+}
+
+div.info {
+	display:block;
+	margin:0 auto!important;
+	padding:0;
+	width: 100%!important;
+	float: center;
+	text-align: center;
+}
+
+div.siteMap a {
+	margin:0 auto!important;
+	padding:0 auto!important;;
+}
+div.siteMap h3 {
+	text-align: center;
+}
+
+div.siteMap {
+	display: block;
+	width: 100%;
+	float:center;
+	text-align:center;
+	margin:0 auto!important;
+}
+
+iframe {
+	display: block;
+	margin:0 auto!important;
+	float:center;
+}
+
+
+hr {
+	padding-left:20px;
+	padding-right:20px;
+}
+
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary,li,space,h3 {display:block;}
+
+footer {
+	border-top: 2px solid black!important;
+	border-bottom: 2px solid black!important;
+	text-align:center;	
+	width:100%!important;
+	height:350px!important;
+	margin:0 auto!important;
+	bottom:0px;
+	padding:0!important;
+	float:center;
+}

@@ -1,0 +1,70 @@
+/*fontStyles.css 1.00 Jan 2017 by Omar Guzman*/
+/*Font Modifications*/
+
+html{
+}
+
+body {
+	font-family: 'Helvetica Neue','Helvetica','Arial';
+}
+
+article {
+}
+
+section.profile h1{
+	font-size: 10vw;
+}
+section.profile h2{
+	font-size: 10vw;
+}
+section.profile h4{
+	font-size: 8vw;
+}
+section.profile article{
+	font-size: 6vw;
+}
+section.email {
+	font-size: 5vw;
+}
+section.links link a {
+	font-size: 2vw;
+	font-style:bold;
+}
+
+
+nav {
+}
+
+div.link a{
+	text-decoration:none;
+	color:black;
+}
+
+header {
+}
+
+h2 {
+}
+
+h1 {
+}
+
+h3 {
+}
+
+section.contact p {
+}
+
+p.title {
+	font-style:italic;
+}
+
+
+table {
+
+}
+section {
+}
+
+footer {
+}

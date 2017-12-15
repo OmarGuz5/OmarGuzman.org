@@ -1,0 +1,75 @@
+/*colorStyles.css 1.00 Jan 2017 by Omar Guzman*/
+/*Structure Color Modifications*/
+
+html{
+}
+
+body {
+	
+}
+
+nav {
+}
+
+article {}
+
+header { 
+}
+
+div.profile {
+	color:white;
+}
+div.bio {
+	color:white;
+}
+
+hr {
+	margin:10px !important;
+	
+}
+
+section {
+	background-color:white!important;
+	color:black!important;
+}
+
+div.grid {
+}
+
+section.contact p{
+	color:black!important;
+}
+section.contact h3{
+	color:black!important;
+}
+section.socialMedia {
+	background-color:#0fa4a6!important;
+}
+
+div.link a {
+	background-color:#0fa4a6!important;
+	color:white!important;
+}
+
+div.profilePic {
+	background-color:white!important;
+}
+/*
+div.profile, html, nav, footer, nav div a{
+	background-color:#0fa4a6!important;
+	color:white;
+}*/
+
+h2 {}
+
+table {}
+
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary {}
+
+footer {
+	background-color:#0fa4a6!important;
+	color:white;
+}
+footer p {
+	background-color:#0fa4a6!important;
+}

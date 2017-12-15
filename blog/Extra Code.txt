@@ -1,0 +1,31 @@
+<ul class ="navBar">
+				<!-- Home link should float left -->
+				<li class ="left_side_nav_bar">
+					<a href="">Omar Guzman</a>
+				</li>
+				<!-- Home link should float right -->
+				
+				<li class = "right_side_nav_bar"> -->
+				<li><a class = "right_side_nav_bar" href="">About Omar Guzman</a></li>
+				<li><a class = "right_side_nav_bar" href="">Profits</a></li>
+				<li><a class = "right_side_nav_bar" href="">Resume</a></li>
+			</ul> 
+			
+			navbar {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #333;
+}
+
+<img src = "profits_header_img.png" alt="Profit Viewer">
+
+<div class = "right">
+				<a href="">About Omar Guzman</a>
+				<a href="">Profits</a>
+				<a href="">Resume</a>
+			</div>
+			
+			
+				<h3>Omar Guzman</h3>

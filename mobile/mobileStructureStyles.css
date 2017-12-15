@@ -1,0 +1,266 @@
+/*StructureStyles.css 1.00 Jan 2017 by Omar Guzman*/
+/*Structure Modifications*/
+html{
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	box-sizing:border-box!important;
+	margin:0 auto!important;
+	padding:0 auto!important;
+}
+
+body {
+	margin:0 auto!important;
+	border-top: 2px solid black!important;
+	border-bottom: 2px solid black!important;
+	padding:0 auto!important;
+}
+
+nav {
+	z-index:1;
+	position:fixed!important;
+	float:center!important;
+	width:100%!important;
+	right:0px;
+	top:0px;
+	margin:0px auto!important;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	border:2px solid black;
+	text-align:center;
+}
+nav a{
+	margin-top:20px auto!important;
+	margin-left:auto!important;
+	margin-right:auto!important;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color:#0fa4a6!important;
+}
+
+
+nav a{
+	margin-top:25px auto!important;
+	margin-left:auto!important;
+	margin-right:auto!important;
+}
+
+article {
+	
+}
+
+header {
+}
+h1 {
+	line-height:.01;
+}
+
+img.gPlay {
+	float:center;
+	width:240px;
+	max-width:240px;
+	height:auto;
+	margin:0 auto;
+}
+
+table {
+}
+
+div.space {
+	height:100px!important;
+	margin:0px auto!important;
+	padding:0px!important;
+	width:100%!important;
+}
+div.smallSpace {
+	height:50px!important;
+	width:100%!important;
+}
+
+div.navSpace {
+	height:150px!important;
+	width:100%!important;
+}
+
+aside {
+}
+
+section {
+	width:100%!important;
+	float:center;
+	box-sizing:border-box;
+}
+
+section.profilePic {
+	
+	margin:10px auto!important;
+	padding:10px auto!important;
+	float:center;
+}
+
+section.profile {
+	
+	margin:10px auto!important;
+	padding:10px!important;
+	text-align:center;
+}
+article {
+	text-align:left;
+}
+section.email {
+	text-align:center;
+}
+
+article{
+	width:100%!important;
+	margin-left:10px;
+}
+section.green {
+	text-align:center;
+}
+article.green {
+	text-align:center;
+}
+
+div.selfiePic{
+	margin:0px auto!important;
+	padding:0px;
+	height:300px!important;
+	width:300px!important;
+	border: 2px #878787;
+	border-radius:150px;
+	background-image: url("selfie.jpg");
+	background-position:center;
+	background-size:cover;
+	border: 2px solid black;
+	text-align:center;
+}
+
+section.contact h3 {
+	text-align:center!important;
+	float:center!important;
+}
+
+header.follow {
+}
+
+
+
+div.fb {
+	background-image: url("social-1_logo-facebook.svg");
+}
+
+div.instagram {
+	background-image: url("social-1_logo-instagram.svg");
+}
+
+div.linkedin {
+	background-image: url("social-1_logo-linkedin.svg");
+}
+
+div.twitter {
+	background-image: url("social-1_logo-twitter.svg");
+}
+
+header.contactHeader {
+	line-height:200%;
+	margin-top:10px!important;
+}
+
+hr {
+	margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    border-style: inset;
+    border-width: 1px;
+	
+}
+
+div.sm {
+	margin:10px!important;
+	float:left;
+}
+
+p.title {
+	line-height:.01;
+}
+
+section.socialMedia {
+	margin:10px auto!important;
+	padding:0!important;
+	height:50px;
+	text-align:center;
+	float:center;
+	position:center;
+	max-width:300px;
+}
+
+section.links {
+	margin:0 auto!important;
+	padding:0 auto!important;
+	width:100%!important;
+}
+
+
+div.link {
+	width:100%!important;
+	margin:0 auto!important;
+	padding:0 auto!important;	
+}
+div.link a {
+	width:100%!important;
+	margin:0 auto!important;
+	padding:20px auto!important;
+	border-top:1px solid black;	
+	border-bottom:1px solid black;
+	text-align:center;
+    height:50px;
+	line-height:45px;
+}
+
+
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary,li,space,a,hr {display: block;}
+
+footer {
+	border-top: 2px solid black!important;
+	text-align:center;
+	margin:0 auto!important;
+	padding:0;
+	width:100% !important;
+	height:230px;
+	
+}
+footer p {
+	margin:0auto!important;
+	padding:0;
+}
