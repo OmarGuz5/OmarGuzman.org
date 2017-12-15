@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+AddDefaultCharset utf-8
+
+AddCharset utf-8 .html .css .js .xml .json .rss .atom

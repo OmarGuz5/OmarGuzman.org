@@ -1,0 +1,8 @@
+ID
+Ticker_Name
+Amount
+Amount_Used
+Gain_Loss
+Comments
+Date_Issued
+Time_Issued
